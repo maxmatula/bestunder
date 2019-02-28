@@ -1,0 +1,72 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.nav-top {
+    background: rgb(26, 26, 26)!important;
+
+}
+
+.nav-top a {
+    color: rgb(255, 247, 247)!important;
+
+}
+
+.nav-top a:hover {
+    color: rgb(255, 177, 210)!important;
+
+}
+
+.img-fluid {
+    height: 75px;
+    width: auto;
+}
+
+.img-fluid2 {
+    height: 30px;
+    width: auto;
+}
+
+.nav-categories {
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.nav-categories a {
+    color: rgb(26, 26, 26)!important;
+    text-transform: uppercase;
+}
+
+.nav-categories a:hover {
+    color: rgb(255, 177, 210)!important;
+    background: rgb(26, 26, 26)!important;
+}
+
+.footer-best {
+    background: rgb(26, 26, 26)!important;
+    color: rgb(255, 247, 247)!important;
+    
+}
+
+.copyright {
+    border-top: 1px solid #000;
+    color: rgb(116, 116, 116);
+    font-size: 0.8rem;
+}
+
+
+.footer-content li {
+    font-size: 0.8rem;
+    
+}
+
+.footer-content li a,p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(116, 116, 116);
+}
+
+.footer-content li a:hover {
+    color: rgb(236, 199, 214)!important;
+}
