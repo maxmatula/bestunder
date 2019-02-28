@@ -70,3 +70,7 @@ body {
 .footer-content li a:hover {
     color: rgb(236, 199, 214)!important;
 }
+
+.carousel-control-next, .carousel-control-prev, .carousel-indicators  {
+    filter: invert(100%);
+}
