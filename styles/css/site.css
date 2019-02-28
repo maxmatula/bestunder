@@ -74,3 +74,7 @@ body {
 .carousel-control-next, .carousel-control-prev, .carousel-indicators  {
     filter: invert(100%);
 }
+
+.nav-top {
+    font-size: 0.9rem;
+}
