@@ -50,7 +50,7 @@ body {
 }
 
 .copyright {
-    border-top: 1px solid #000;
+    border-top: 1px solid rgb(41, 40, 40);
     color: rgb(116, 116, 116);
     font-size: 0.8rem;
 }
@@ -83,7 +83,81 @@ body {
     width: 100%;
     height: 350px;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 350px;
     position: relative;
     background: rgb(255, 247, 247)!important;
+    transition: ease-in-out 500ms;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.13);
+    margin-bottom: 20px;
+}
+
+
+.card-m-header {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+}
+
+.img-card {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transform: scale(1.0, 1.0);
+    transition: ease-in-out 500ms;
+}
+
+.card-m:hover .img-card {
+    transform: scale(1.1, 1.1);
+    transition: ease-in-out 1000ms;
+}
+
+.card-product-name {
+    padding-bottom: 5px;
+    text-overflow: ellipsis;
+}
+
+.card-product-price {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.collection {
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin:0;
+    text-transform: uppercase;
+}
+
+.collection-c {
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: rgb(255, 177, 210)!important;
+    text-transform: uppercase;
+}
+
+.heart {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    transform: scale(1, 1);
+    transition: ease-in-out 300ms;
+}
+
+.heart:hover {
+    transform: scale(1.3, 1.3);
+    color: rgb(255, 177, 210)!important;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.liked {
+    transform: scale(1.3, 1.3);
+    color: rgb(255, 177, 210)!important;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
 }
