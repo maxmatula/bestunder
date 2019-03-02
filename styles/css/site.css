@@ -36,11 +36,13 @@ body {
 .nav-categories a {
     color: rgb(26, 26, 26)!important;
     text-transform: uppercase;
+    transition: ease-in-out 500ms;
 }
 
 .nav-categories a:hover {
     color: rgb(255, 177, 210)!important;
     background: rgb(26, 26, 26)!important;
+    transition: ease-in-out 500ms;
 }
 
 .footer-best {
@@ -159,4 +161,8 @@ body {
     color: rgb(255, 177, 210)!important;
     cursor: pointer;
     transition: ease-in-out 300ms;
+}
+
+.text-sm {
+    font-size: 0.9rem;
 }
