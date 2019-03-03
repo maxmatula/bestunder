@@ -110,6 +110,15 @@ body {
     transition: ease-in-out 500ms;
 }
 
+.img-details {
+    display: block;
+    overflow: hidden;
+    width: 80%;
+    max-width: 80%;
+    height: 600px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.13);
+}
+
 .card-m:hover .img-card {
     transform: scale(1.1, 1.1);
     transition: ease-in-out 1000ms;
@@ -139,6 +148,17 @@ body {
     text-transform: uppercase;
 }
 
+.collection-s {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(255, 177, 210)!important;
+    text-transform: uppercase;
+}
+
+.collection-u {
+    border-bottom: 1px solid rgb(143, 143, 143);;
+}
+
 .heart {
     position: absolute;
     top: 3%;
@@ -165,4 +185,109 @@ body {
 
 .text-sm {
     font-size: 0.9rem;
+}
+
+.details-price {
+    font-weight: 100;
+}
+
+.colors {
+    display:flex;
+}
+
+.sizes {
+    display:flex;
+}
+
+.quantity {
+    display: flex;
+}
+
+.color-card {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 5px;
+    transform: scale(1.0, 1.0);
+    transition: ease-in-out 300ms;
+}
+
+.color-card:hover {
+    transform: scale(1.2, 1.2);
+    transition: ease-in-out 300ms;
+}
+
+.selected-color {
+    transform: scale(1.1, 1.1);
+    border: 1px solid #000;
+}
+
+.size-card {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+    transform: scale(1.0, 1.0);
+    transition: ease-in-out 300ms;
+    border: 1px solid #000;
+}
+
+.size-text {
+    font-size: 1.1rem;
+}
+
+.size-card:hover {
+    transform: scale(1.2, 1.2);
+    transition: ease-in-out 300ms;
+}
+
+.selected-size {
+    transform: scale(1.1, 1.1);
+    background: #000;
+}
+
+.selected-size p{
+    color: #fff;
+}
+
+.plus-minus-qty {
+    display: block;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.plus-minus-qty p {
+    font-weight: 100;
+}
+
+.plus-minus {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid rgb(143, 143, 143);
+}
+
+.plus-minus:hover {
+    border: 2px solid #000;
+}
+
+.add-cart {
+    background: rgb(255, 177, 210)!important;
+    border-radius: 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.add-cart:hover {
+    border: 1px solid #000;
+}
+
+.description {
+    font-weight: 100;
 }
